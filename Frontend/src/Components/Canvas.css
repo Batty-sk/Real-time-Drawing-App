@@ -1,0 +1,196 @@
+
+.mono{
+    font-family: monospace;
+}
+.no-user{
+    background-color: black;
+    border-radius: 5px;   
+    text-align: center;
+    color: aquamarine
+}
+.bxs-edit-alt{
+    color:crimson;
+}
+.user-container{
+    border-right: 5px inset grey;
+}
+i{
+    color:rgb(219, 87, 173);
+
+}
+.user{
+    background-color: black;
+    border-radius: 5px;   
+    text-align: center;
+    color: aquamarine
+}
+.user-points{
+    color:white;
+}
+
+.chats{
+    border-right: 5px solid rgb(8, 65, 26);
+}
+.from{
+    background-color: black;
+    color:red;
+}
+#messages{
+    box-sizing: border-box;
+    overflow-y: auto;
+    max-height: 500px;
+    
+}
+#messages p{
+    background-color: #b0cdce;
+    text-align: center;
+}
+
+.heading{
+    text-decoration:underline;
+}
+
+.img-messages{
+    margin-top: 10px;
+    background-color: greenyellow;
+    padding:15px;
+    border-radius: 15px;
+
+}
+.choices{
+background-color: aquamarine;
+
+}
+.choices button{
+    padding:10px;
+
+}
+  
+.er{
+    color:rgb(32, 104, 237);
+}
+.re{
+    color:red;
+}
+
+#drawing{
+    background-color: rgb(201, 242, 15);
+    padding:10px;
+    font-weight: bolder;
+    color:black;
+    opacity: 0.9;
+
+}
+#master{
+    color:white;
+    background-color:red;
+    padding:10px;
+    opacity: 0.9;
+}
+
+#main{
+    border: 1px solid grey;
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    opacity: 1;
+}
+body{
+    background-image: url('../peakpx\(1\).jpg');
+
+}
+body {
+    min-height: 100vh; /* Set minimum height of the body to full viewport height */
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer {
+    background-color: #b0cdce; /* Customize footer background color */
+    padding: 1px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  .footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+  }
+  .footer ul li{
+padding-right: 20px;
+  }
+  .footer ul li i{
+    color:rgb(79, 47, 56);
+  }
+  .footer ul a{
+    color:black; 
+    text-decoration: none;
+    font-weight: lighter;
+  }
+
+  #canvas-tools{
+    background-color: rgb(150, 255, 127);
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px black;
+  }
+  #users{
+    box-sizing: border-box;
+    overflow-y: auto;
+    max-height: 500px;
+  }
+ 
+  @media (max-width: 576px) {
+    #messages {
+      max-height: 200px; /* Reduce max-height for smaller screens */
+       /* Reduce font size for smaller screens */
+       /* Decrease padding for smaller screens */
+    }
+    #users{
+        max-height: 200px; /* Reduce max-height for smaller screens */
+
+    }
+  }
+
+  /* Media queries for even smaller screens */
+  @media (max-width: 375px) {
+    #messages {
+      max-height: 100px; /* Reduce max-height further for even smaller screens */
+    }
+    #users{
+        max-height: 100px; /* Reduce max-height for smaller screens */
+
+    }
+  }
+  /* Media queries for smaller screens */
+
+@media (max-width: 767px) {
+    canvas {
+    
+      width: 400px;
+      height: 300px;
+    }
+ 
+  }
+  
+  /* Media query for medium screens */
+  @media (min-width: 768px) and (max-width: 991px) {
+    canvas {
+
+      width: 500px;
+      height: 300px;    
+    }
+
+  }
+  
+  @media (min-width: 992px) {
+    canvas {
+   
+      width: 800px;
+      height: 500px;
+    }
+ 
+  }
